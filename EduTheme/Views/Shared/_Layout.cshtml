@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="ust-hizli-menu" class="wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="k-breadcrumbs col-lg-12 clearfix hidden-sm hidden-xs" id="ust-hizli-menu-inner">
+                        <ol class="breadcrumb">
+                            <li class="">
+                                <a href="/Web/SiteHaritasi">Site Haritası</a>
+
+                            </li>
+                            <li class="dropdown dropdown-hoverable">
+                                <a href="/Icerik/Index/245/personel">Personel</a>
+
+                            </li>
+                            <li class="">
+                                <a href="http://oidb.ogu.edu.tr" target="&quot;_blank&quot;">Aday Öğrenci</a>
+
+                            </li>
+                            <li class="">
+                                <a href="http://www.esogumed.ogu.edu.tr/" target="&quot;_blank&quot;">Mezun</a>
+
+                            </li>
+                            <li class="">
+                                <a href="http://hastane.ogu.edu.tr/" target="&quot;_blank&quot;">Hastane</a>
+
+                            </li>
+                            <li class="">
+                                <a href="http://kutuphane.ogu.edu.tr/" target="&quot;_blank&quot;">Kütüphane</a>
+
+                            </li>
+                            <li class="">
+                                <a href="https://strateji.ogu.edu.tr/Sayfa/Index/251/kalite" target="&quot;_blank&quot;">Kalite</a>
+
+                            </li>
+                            <li class="dropdown dropdown-hoverable">
+                                <a href="#" aria-haspopup="true">
+                                    Hızlı Erişim
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="http://covid19.ogu.edu.tr" target="&quot;_blank&quot;">Covid - 19</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://oidb.ogu.edu.tr/Sayfa/Index/20/akademik-takvim" target="&quot;_blank&quot;">Akademik Takvim</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://ogubs1.ogu.edu.tr" target="&quot;_blank&quot;">Öğrenci Bilgi Sistemi</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://uzemoys.ogu.edu.tr " target="&quot;_blank&quot;">UZEM Öğrenme Yönetim Sistemi</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://ebysnet.ogu.edu.tr" target="&quot;_blank&quot;">Elektronik Belge Yönetim Sistemi  (EBYS)</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://iro.ogu.edu.tr/" target="&quot;_blank&quot;">Uluslararası İlişkiler</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://yemekhane.ogu.edu.tr" target="&quot;_blank&quot;">Yemek Menüsü</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Icerik/Index/170/ihale-ilanlari">İhale İlanları</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://uzem.ogu.edu.tr" target="&quot;_blank&quot;">Uzaktan Eğitim</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Web/BilgiBelge">Bilgi - Belge</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.ogu.edu.tr/Icerik/Index/148/bilgi-edinme" target="&quot;_blank&quot;">Bilgi Edinme</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://rehber.ogu.edu.tr" target="&quot;_blank&quot;">Telefon Rehberi</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Icerik/Index/196/ftp">Program Hizmetleri</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://kms.kaysis.gov.tr/Home/Kurum/60793471?AspxAutoDetectCookieSupport=1" target="&quot;_blank&quot;">Mevzuat</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://strateji.ogu.edu.tr" target="&quot;_blank&quot;">İç Kontrol</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="/Icerik/Index/191/iletisim">İletişim</a>
+
+                            </li>
+                        </ol>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/Site.js"></script>
+</body>
+</html>
