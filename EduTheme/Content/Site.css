@@ -190,7 +190,7 @@ h3.etkinlik-baslik {
 }
 
 h3.duyuru-baslik a {
-    color: black;
+    color: #fff;
 }
 
 /*.etkinlik-ay {
@@ -258,3 +258,134 @@ h2.widget-baslik.duyurular-baslik {
     .tum-duyurular a, .tum-etkinlikler a {
         color: white;
     }
+
+
+.copy-text {
+    color: #fff;
+    background-color: #111;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 0;
+    padding: 16px 16px 10px 16px;
+    text-transform: capitalize;
+}
+
+.footer-text {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#subfooter-inner {
+    background-color: #14626e;
+    padding: 30px;
+}
+
+.footer-baslik {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+.list-iletisim {
+    color: #fff;
+    font-size: 15px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.yaprak-logo {
+    display: block;
+    position: absolute;
+    background-image: url(/Content/2019/img/yaprak-logo.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    z-index: 10;
+    right: 30px;
+    bottom: 16px;
+    background-size: 100% auto;
+    width: 16%;
+    height: 540px;
+}
+
+.hizli-erisim-footer {
+    margin-top:20px;
+    background-color: #9b9c9e;
+    border-bottom: 10px solid #d9dbda;
+    min-height: 392px;
+}
+h3.hizli-erisim-baslik {
+    margin: 14px 0 10px 0;
+    font-weight:bold;
+}
+
+.hizli-erisim-footer p {
+    margin: 0 0 4px 0;
+}
+
+    .hizli-erisim-footer p a {
+        color:#fff;
+    }
+
+.social-media  {
+    padding: 30px;
+    white-space:nowrap;
+}
+
+.social-media ul {
+    list-style: none;
+}
+
+    .social-media ul li {
+        margin: 5px 20px;
+        float: left;
+    }
+
+.social-media .wp-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px !important;
+    vertical-align: middle;
+    color: #fff;
+    margin-right: 5px;
+}
+
+    .social-media .fa-facebook-f {
+        background: #3B5998;
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    }
+/*
+    .social-media .fa-linkedin {
+        background: #0077B5;
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    }*/
+
+    .social-media .fa-twitter {
+        background: #1DA1F2;
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    }
+
+    .social-media .fa-instagram {
+        background: #d6249f;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    }
+
+/*.fa-google-plus {
+    background: #D04338;
+}
+
+.fa-youtube {
+    background: #FF0000;
+}
+
+.fa-pinterest {
+    background: #BD081C;
+}
+*/

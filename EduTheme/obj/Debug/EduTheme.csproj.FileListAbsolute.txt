@@ -76,3 +76,4 @@ C:\Users\Lenovo\Desktop\Hatem Proje\EduTheme\EduTheme\obj\Debug\EduTheme.csproj.
 C:\Users\Lenovo\Desktop\Hatem Proje\EduTheme\EduTheme\obj\Debug\EduTheme.csproj.CopyComplete
 C:\Users\Lenovo\Desktop\Hatem Proje\EduTheme\EduTheme\obj\Debug\EduTheme.dll
 C:\Users\Lenovo\Desktop\Hatem Proje\EduTheme\EduTheme\obj\Debug\EduTheme.pdb
+C:\Users\Lenovo\Desktop\Hatem Proje\EduTheme\EduTheme\obj\Debug\EduTheme.csprojAssemblyReference.cache
