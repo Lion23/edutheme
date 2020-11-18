@@ -389,3 +389,7 @@ h3.hizli-erisim-baslik {
     background: #BD081C;
 }
 */
+
+    .social-media a i:hover {
+        background: #8c1929;
+    }
