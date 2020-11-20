@@ -393,3 +393,30 @@ h3.hizli-erisim-baslik {
     .social-media a i:hover {
         background: #8c1929;
     }
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {    
+    width: 2%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 35px;
+    height: 35px;
+}
+.zoom:hover {
+    transition: transform .5s;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.zoom:not(:hover) {
+    transition: transform .5s;
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1);
+}
