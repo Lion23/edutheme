@@ -296,6 +296,7 @@ h2.widget-baslik.duyurular-baslik {
     padding-left: 0;
     list-style: none;
 }
+
 .yaprak-logo {
     display: block;
     position: absolute;
@@ -312,14 +313,15 @@ h2.widget-baslik.duyurular-baslik {
 }
 
 .hizli-erisim-footer {
-    margin-top:20px;
+    margin-top: 20px;
     background-color: #9b9c9e;
     border-bottom: 10px solid #d9dbda;
     min-height: 392px;
 }
+
 h3.hizli-erisim-baslik {
     margin: 14px 0 10px 0;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .hizli-erisim-footer p {
@@ -327,39 +329,39 @@ h3.hizli-erisim-baslik {
 }
 
     .hizli-erisim-footer p a {
-        color:#fff;
+        color: #fff;
     }
 
-.social-media  {
+.social-media {
     padding: 30px;
-    white-space:nowrap;
+    white-space: nowrap;
 }
 
-.social-media ul {
-    list-style: none;
-}
-
-    .social-media ul li {
-        margin: 5px 20px;
-        float: left;
+    .social-media ul {
+        list-style: none;
     }
 
-.social-media .wp-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 50px !important;
-    vertical-align: middle;
-    color: #fff;
-    margin-right: 5px;
-}
+        .social-media ul li {
+            margin: 5px 20px;
+            float: left;
+        }
+
+    .social-media .wp-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px !important;
+        vertical-align: middle;
+        color: #fff;
+        margin-right: 5px;
+    }
 
     .social-media .fa-facebook-f {
         background: #3B5998;
         box-shadow: 0px 3px 10px rgba(0,0,0,.25);
     }
-/*
+    /*
     .social-media .fa-linkedin {
         background: #0077B5;
         box-shadow: 0px 3px 10px rgba(0,0,0,.25);
@@ -376,7 +378,7 @@ h3.hizli-erisim-baslik {
         box-shadow: 0px 3px 10px rgba(0,0,0,.25);
     }
 
-/*.fa-google-plus {
+    /*.fa-google-plus {
     background: #D04338;
 }
 
@@ -399,13 +401,15 @@ h3.hizli-erisim-baslik {
     width: 100%;
 }
 
-.carousel-control-prev, .carousel-control-next {    
+.carousel-control-prev, .carousel-control-next {
     width: 2%;
 }
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
     width: 35px;
     height: 35px;
 }
+
 .zoom:hover {
     transition: transform .5s;
     -ms-transform: scale(1.2); /* IE 9 */
@@ -423,8 +427,8 @@ h3.hizli-erisim-baslik {
 /* Nav / Navbar Styles
 ===================================*/
 .navbar {
-    margin:15px;
-    margin-top:40px;
+    margin: 15px;
+    margin-top: 40px;
     background: #aeaeae;
     border-bottom: none;
     padding: 30px;
@@ -441,7 +445,7 @@ h3.hizli-erisim-baslik {
 .navbar-scroll {
     background: #ffffff;
     padding: 0;
-/*    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);*/
+    /*    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);*/
     transition-duration: 0.6s;
 }
 
@@ -451,7 +455,7 @@ h3.hizli-erisim-baslik {
 }
 
 .margin-for-slider {
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 .navbar-brand {
@@ -461,4 +465,20 @@ h3.hizli-erisim-baslik {
     top: 0;
     text-align: center;
     margin: auto;
+}
+    .navbar-brand img {
+        width: 156px;
+        height: 154px;
+    }
+
+.scroll-up-img {
+    width: 156px !important;
+    height: 154px !important;
+    transition-duration: 0.6s;
+}
+
+.scroll-down-img {
+    width: 56px !important;
+    height: 55px !important;
+    transition-duration: 0.6s;
 }
